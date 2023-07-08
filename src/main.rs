@@ -4,11 +4,7 @@ fn main() {
     let maximum_n = 10;
 
     for value in 1..=maximum_n {
-        println!(
-            "{} : {:0<31}",
-            value,
-            format!("{}", probability_of_all_6_faces(value))
-        );
+        println!("{} : {}", value, probability_of_all_6_faces(value));
     }
 }
 
